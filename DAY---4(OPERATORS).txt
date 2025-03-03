@@ -1,0 +1,83 @@
+DAY-3(OPERATORS)
+
+
+### Arithmetic Operators
+
+| Operator | Description                                       | Example   |
+|----------|---------------------------------------------------|-----------|
+| `+`      | Addition (also used for string concatenation)     | `a + b`   |
+| `-`      | Subtraction                                       | `a - b`   |
+| `*`      | Multiplication                                    | `a * b`   |
+| `/`      | Division                                          | `a / b`   |
+| `%`      | Modulus (remainder)                               | `a % b`   |
+
+### Unary Operators
+
+| Operator | Description                                                       | Example     |
+|----------|-------------------------------------------------------------------|-------------|
+| `+`      | Unary plus (promotes the operand to int type if it is byte, short, or char) | `+a`        |
+| `-`      | Unary minus (negates the operand)                                 | `-a`        |
+| `++`     | Increment (increases the value by 1)                              | `a++` or `++a` |
+| `--`     | Decrement (decreases the value by 1)                              | `a--` or `--a` |
+| `!`      | Logical complement (inverts the value of a boolean expression)    | `!condition`|
+
+### Relational Operators
+
+| Operator | Description      | Example   |
+|----------|------------------|-----------|
+| `==`     | Equal to         | `a == b`  |
+| `!=`     | Not equal to     | `a != b`  |
+| `>`      | Greater than     | `a > b`   |
+| `<`      | Less than        | `a < b`   |
+| `>=`     | Greater than or equal to | `a >= b` |
+| `<=`     | Less than or equal to    | `a <= b` |
+
+### Logical Operators
+
+| Operator | Description                | Example                       |
+|----------|----------------------------|-------------------------------|
+| `&&`     | Logical AND                | `condition1 && condition2`    |
+| `||`     | Logical OR                 | `condition1 || condition2`    |
+| `!`      | Logical NOT                | `!condition`                  |
+
+### Bitwise Operators
+
+| Operator | Description          | Example      |
+|----------|----------------------|--------------|
+| `&`      | Bitwise AND          | `a & b`      |
+| `|`      | Bitwise OR           | `a | b`      |
+| `^`      | Bitwise XOR          | `a ^ b`      |
+| `~`      | Bitwise complement   | `~a`         |
+| `<<`     | Left shift           | `a << 2`     |
+| `>>`     | Right shift          | `a >> 2`     |
+| `>>>`    | Unsigned right shift | `a >>> 2`    |
+
+### Assignment Operators
+
+| Operator | Description               | Example       |
+|----------|---------------------------|---------------|
+| `=`      | Assignment                | `a = b`       |
+| `+=`     | Addition assignment       | `a += b`      |
+| `-=`     | Subtraction assignment    | `a -= b`      |
+| `*=`     | Multiplication assignment | `a *= b`      |
+| `/=`     | Division assignment       | `a /= b`      |
+| `%=`     | Modulus assignment        | `a %= b`      |
+| `&=`     | Bitwise AND assignment    | `a &= b`      |
+| `|=`     | Bitwise OR assignment     | `a |= b`      |
+| `^=`     | Bitwise XOR assignment    | `a ^= b`      |
+| `<<=`    | Left shift assignment     | `a <<= 2`     |
+| `>>=`    | Right shift assignment    | `a >>= 2`     |
+| `>>>=`   | Unsigned right shift assignment | `a >>>= 2` |
+
+### Conditional Operator
+
+| Operator | Description                    | Example                     |
+|----------|--------------------------------|-----------------------------|
+| `?:`     | Ternary (conditional) operator | `condition ? value1 : value2` |
+
+### `instanceof` Operator
+
+| Operator     | Description                                            | Example                           |
+|--------------|--------------------------------------------------------|-----------------------------------|
+| `instanceof` | Checks if an object is an instance of a specific class or subclass | `object instanceof ClassName`      |
+
