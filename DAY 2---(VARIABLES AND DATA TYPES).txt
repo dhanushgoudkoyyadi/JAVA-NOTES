@@ -1,0 +1,112 @@
+DAY 2---(VARIABLES AND DATA TYPES)
+
+In Java, variables are used to store data that can be manipulated and used throughout a program. Here's a breakdown of different types of variables in Java, along with examples:
+
+### Types of Variables
+
+1. **Local Variables:**
+   These are variables declared inside a method, constructor, or block. They are only accessible within that specific method, constructor, or block.
+
+   ```java
+   public class Example {
+       public void display() {
+           int localVar = 10; // Local variable
+           System.out.println("Local Variable: " + localVar);
+       }
+   }
+   ```
+
+2. **Instance Variables:**
+   These are variables declared inside a class but outside any method, constructor, or block. They are also known as fields or member variables and are accessible by all methods, constructors, and blocks in the class.
+
+   ```java
+   public class Example {
+       int instanceVar; // Instance variable
+
+       public void display() {
+           instanceVar = 20;
+           System.out.println("Instance Variable: " + instanceVar);
+       }
+   }
+   ```
+
+3. **Class Variables (Static Variables):**
+   These are variables declared with the `static` keyword inside a class but outside any method, constructor, or block. They are shared among all instances of the class.
+
+   ```java
+   public class Example {
+       static int classVar; // Class variable
+
+       public void display() {
+           classVar = 30;
+           System.out.println("Class Variable: " + classVar);
+       }
+   }
+   ```
+
+### Variable Declaration and Initialization
+
+To declare a variable, you need to specify its data type and name. You can also initialize it with a value:
+
+```java
+int number; // Declaration
+number = 10; // Initialization
+```
+
+Or you can do both in a single line:
+
+```java
+int number = 10; // Declaration and Initialization
+```
+
+### Data Types
+
+Variables in Java can hold different types of data, which are categorized into two main groups:
+
+1. **Primitive Data Types:**
+   - `byte`: 8-bit integer
+   - `short`: 16-bit integer
+   - `int`: 32-bit integer
+   - `long`: 64-bit integer
+   - `float`: Single-precision floating-point number
+   - `double`: Double-precision floating-point number
+   - `char`: Single 16-bit Unicode character
+   - `boolean`: Represents `true` or `false`
+
+2. **Reference Data Types:**
+   These include objects, arrays, and interfaces. They reference a memory location where the data is stored.
+
+   ```java
+   String text = "Hello, Java"; // Reference variable
+   ```
+
+### Example Program
+
+Here’s a simple example that demonstrates the different types of variables:
+
+```java
+public class VariableExample {
+    int instanceVar = 5; // Instance variable
+
+    static int classVar = 10; // Class variable
+
+    public void show() {
+        int localVar = 20; // Local variable
+        System.out.println("Instance Variable: " + instanceVar);
+        System.out.println("Class Variable: " + classVar);
+        System.out.println("Local Variable: " + localVar);
+    }
+
+    public static void main(String[] args) {
+        VariableExample example = new VariableExample();
+        example.show();
+    }
+}
+```
+
+When you run this program, the output will be:
+```
+Instance Variable: 5
+Class Variable: 10
+Local Variable: 20
+```

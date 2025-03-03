@@ -1,0 +1,49 @@
+DAY-1---JAVA:
+
+INTRODUCTION:
+ 
+
+Java is a high-level, object-oriented programming language first released by Sun Microsystems in 1995. It was designed to be platform-independent, meaning that code written in Java can run on any device equipped with a Java Virtual Machine (JVM). This "write once, run anywhere" principle has made Java a popular choice for developers working on everything from mobile apps to large-scale enterprise systems.
+
+The key features of Java include its simplicity, security, portability, and strong memory management. Java's syntax is similar to C and C++, making it accessible to programmers familiar with those languages.
+
+Java is widely used in various domains, including web development, Android app development, scientific computing, and big data processing. Popular frameworks and libraries, such as Spring and Hibernate, have further extended Java's versatility and power.
+
+==================================================================================
+
+How Java Works:
+
+Writing the Code: Java developers write their code in files with a .java extension. This source code is human-readable.
+
+Compiling the Code: The Java compiler (javac) translates the source code into bytecode, which is a platform-independent, intermediate language. The output is a file with a .class extension.
+
+Running the Code: The Java Virtual Machine (JVM) takes this bytecode and translates it into machine code that the computer's hardware can execute. The JVM is platform-specific, allowing the same Java bytecode to run on any device with the appropriate JVM installed.
+
+Example: Hello World Program
+Here’s a simple example to illustrate the process:
+
+Writing the Code:
+
+java
+
+// HelloWorld.java
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+Compiling the Code: Open a terminal or command prompt, navigate to the directory where HelloWorld.java is saved, and compile it using the javac command:
+
+javac HelloWorld.java
+This creates a file named HelloWorld.class in the same directory.
+
+Running the Code: Run the compiled bytecode using the java command:
+
+java HelloWorld
+
+The output will be:
+
+Hello, world!
+
+==================================================================================
